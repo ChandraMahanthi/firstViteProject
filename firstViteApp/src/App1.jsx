@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from './pages1/navbar/Navbar'
+import State from "./State"
+
 
 function App1() {
   return (
@@ -9,6 +11,8 @@ function App1() {
         title="Virat Kohli">
 
         </Navbar>
+        
+    <State></State>
     </div>
   )
 }

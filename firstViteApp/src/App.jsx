@@ -14,7 +14,6 @@ function App() {
     <Home></Home>
     <About></About>
     <Contact></Contact>
-
    </div> 
   )
 }
