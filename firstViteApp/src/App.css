@@ -1,0 +1,11 @@
+body
+{
+    color: green;
+    background-color: black;
+}
+.Outline
+{
+    border: 5px solid white;
+    margin: 20px;
+    text-align: center;
+}
