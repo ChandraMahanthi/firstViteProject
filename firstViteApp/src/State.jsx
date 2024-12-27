@@ -5,7 +5,11 @@ function State() {
     let [state , setState] = useState(0)
     const changeState = () =>
     {
-        setState(state+1)
+        // setState(state+1)//0+1 = 1
+        // setState(state+4)//0+4 = 4
+
+        // setState((state)=>{state+1})//0+1 = 1
+        // setState((state)=>{state+3})//1+3 = 4
     }
 
     var variable = 0; 

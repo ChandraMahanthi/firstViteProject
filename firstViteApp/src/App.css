@@ -1,8 +1,12 @@
-body
+*
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* body
 {
     color: green;
     background-color: black;
-}
+} */
 .Outline
 {
     border: 5px solid white;
