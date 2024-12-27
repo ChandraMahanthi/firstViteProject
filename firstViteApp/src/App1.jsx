@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './pages1/navbar/Navbar'
 import State from "./State"
+import ImageSlider from './components/ImageSlider'
 
 
 function App1() {
@@ -13,6 +14,7 @@ function App1() {
         </Navbar>
         
     <State></State>
+    <ImageSlider></ImageSlider>
     </div>
   )
 }
