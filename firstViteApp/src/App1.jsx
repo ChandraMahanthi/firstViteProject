@@ -1,8 +1,10 @@
 import React from 'react'
 // import Navbar from './pages1/navbar/Navbar'
-import State from "./State"
+// import State from "./state/State"
 // import ImageSlider from './components/ImageSlider'
-import Profiles from './components/profileCards/Profiles'
+// import Profiles from './components/profileCards/Profiles'
+// import Updater from './state/Updater'
+import Task2 from './state/Task2'
 import './App.css'
 
 
@@ -13,9 +15,11 @@ function App1() {
         source="https://cdn.britannica.com/48/252748-050-C514EFDB/Virat-Kohli-India-celebrates-50th-century-Cricket-November-15-2023.jpg" 
         title="Virat Kohli">
         </Navbar> */}
-        <State></State>
         {/* <ImageSlider></ImageSlider> */}
         {/* <Profiles/> */}
+        {/* <State></State> */}
+        {/* <Updater></Updater> */}
+        <Task2></Task2>
     </div>
   )
 }
