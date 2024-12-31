@@ -4,7 +4,8 @@ import React from 'react'
 // import ImageSlider from './components/ImageSlider'
 // import Profiles from './components/profileCards/Profiles'
 // import Updater from './state/Updater'
-import Task2 from './state/Task2'
+// import Task2 from './state/Task2'
+import Form from "./task/Form";
 import './App.css'
 
 
@@ -19,7 +20,8 @@ function App1() {
         {/* <Profiles/> */}
         {/* <State></State> */}
         {/* <Updater></Updater> */}
-        <Task2></Task2>
+        {/* <Task2></Task2> */}
+        <Form></Form>
     </div>
   )
 }
