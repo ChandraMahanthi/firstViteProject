@@ -5,7 +5,9 @@ import React from 'react'
 // import Profiles from './components/profileCards/Profiles'
 // import Updater from './state/Updater'
 // import Task2 from './state/Task2'
-import Form from "./task/Form";
+// import Form from "./task/Form";
+import Form from './task/taskSolved/Form';
+import Table from './task/taskSolved/Table';
 import './App.css'
 
 
@@ -21,6 +23,7 @@ function App1() {
         {/* <State></State> */}
         {/* <Updater></Updater> */}
         {/* <Task2></Task2> */}
+        {/* <Form></Form> */}
         <Form></Form>
     </div>
   )
