@@ -1,0 +1,41 @@
+.todo
+{
+    margin: auto;
+    border-radius:10px ;
+    padding: 20px;
+    text-align: center;
+    box-shadow:5px 5px 5px rgb(5, 5, 72);
+    background-color: rgb(211, 255, 214);
+    color: rgb(23, 12, 64);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: fit-content;
+}
+thead
+{
+    font-weight: 900;
+    background-color: beige;
+}
+button
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid blue;
+    border-radius: 5px ;
+}
+table,td
+{
+    margin:30px auto;
+    text-align: center;
+    border: 2px solid blue; 
+    border-collapse: collapse;
+    box-shadow: 11px 10px 7px rgb(108, 108, 32);
+    background-color: rgb(11, 11, 52);
+    color: rgb(250, 194, 121);
+}
+strong
+{
+    color: red;
+}
+input
+{
+    font-family:fantasy;
+}

@@ -6,8 +6,9 @@ import React from 'react'
 // import Updater from './state/Updater'
 // import Task2 from './state/Task2'
 // import Form from "./task/Form";
-import Form from './task/taskSolved/Form';
-import Table from './task/taskSolved/Table';
+// import Form from './task/taskSolved/Form';
+// import Table from './task/taskSolved/Table';
+import Todo from './task/todolist/Todo'
 import './App.css'
 
 
@@ -24,7 +25,9 @@ function App1() {
         {/* <Updater></Updater> */}
         {/* <Task2></Task2> */}
         {/* <Form></Form> */}
-        <Form></Form>
+        {/* <Form></Form> */}
+        <Todo></Todo>
+
     </div>
   )
 }

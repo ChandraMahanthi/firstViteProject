@@ -33,7 +33,7 @@ function Form() {
         <input type="password" onChange={getUserPassword}/>
         <input type="email" onChange={getUserEmail}/>
         <button onClick={getuser}>Submit</button>
-        <Table usersList = {usersList}></Table>
+        <Table usersList = {usersList} setUsersList={setUsersList}></Table>
     </div>
   )
 }
