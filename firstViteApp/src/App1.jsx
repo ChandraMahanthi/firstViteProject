@@ -8,7 +8,8 @@ import React from 'react'
 // import Form from "./task/Form";
 // import Form from './task/taskSolved/Form';
 // import Table from './task/taskSolved/Table';
-import Todo from './task/todolist/Todo'
+// import Todo from './task/todolist/Todo'
+import Map from './pages1/navbar/Map'
 import './App.css'
 
 
@@ -26,8 +27,8 @@ function App1() {
         {/* <Task2></Task2> */}
         {/* <Form></Form> */}
         {/* <Form></Form> */}
-        <Todo></Todo>
-
+        {/* <Todo></Todo> */}
+          <Map></Map>
     </div>
   )
 }
