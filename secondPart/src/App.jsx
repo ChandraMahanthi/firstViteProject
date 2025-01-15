@@ -1,9 +1,19 @@
 import React from 'react'
-import Users from './components/axios/users/Users'
+import Navbar from './components/navbar/Navbar';
+import Electronics from './components/electronics/Electronics';
+import Jewelery from './components/jewelery/Jewelery';
+import './App.css'
+// import Users from './components/axios/users/Users'
+
+
 function App() {
   return (
     <div>
-      <Users></Users>
+      <Navbar></Navbar>
+      <Electronics></Electronics>
+      <Jewelery></Jewelery>
+
+      {/* <Users></Users> */}
     </div>
   )
 }
