@@ -4,11 +4,13 @@ import './Navbar.css';
 function Navbar() {
   return (
     <div className='navbar'>
-        <a href="">Home</a>
-        <a href="">Electronics</a>
-        <a href="">Jewelery</a>
-        <a href="">Mens</a>
-        <a href="">Womens</a>
+        <a href="/home">Home</a>
+
+        <a href="/electronics">Electronics</a>
+        <a href="/jewelery">Jewelery</a>
+        <a href="/mens">Mens</a>
+        <a href="/womens">Womens</a>
+        
         <a href="">Profile</a>
         <a href="">Cart</a>
         <a href="">Wishlist</a>

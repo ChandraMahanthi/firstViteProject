@@ -8,7 +8,7 @@ function Electronics() {
         {
             electronicService().then(
                 (res)=>{
-                    alert("Something went wrong");
+                    // alert("Something went wrong");
                     console.log(res.data);
                     setElectronicProducts(res.data)
                 })
