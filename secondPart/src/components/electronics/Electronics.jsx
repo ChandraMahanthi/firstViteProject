@@ -1,9 +1,15 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import './Electronics.css';
 import { electronicService } from '../services/electronics/electronicsService';
+import { Link } from 'react-router-dom';
+import ProductDetails from '../productDetails/ProductDetails';
 
 function Electronics() {
     let [electronicProducts , setElectronicProducts] = useState([]);
+    useEffect(()=>{
+        getelectronicService()
+    },[])
+
     const getelectronicService = ()=>
         {
             electronicService().then(
@@ -26,7 +32,10 @@ function Electronics() {
             return <div className='card'> 
                 <img src={element.image} alt=""/>
                 <h2>{element.title}</h2>
-                <p>{element.description}</p>
+                {/* <p>{element.description}</p> */}
+                <Link to='/productDetails'>
+                    <button>Product Details</button>
+                </Link>
                 <h4>{element.price}</h4>
             </div>
         })} </div> : <h2> No Data to show</h2> }
