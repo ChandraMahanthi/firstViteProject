@@ -8,6 +8,9 @@ import Jewelery from './components/jewelery/Jewelery';
 import {Route,Routes} from 'react-router-dom';
 import ProductDetails from './components/productDetails/ProductDetails';
 import PageNotFound from './components/pageNotFound/PageNotFound';
+import UseRefComp from './components/useRef/UseRefComp';
+import DOMRef from './components/useRef/DOMRef';
+import UseReducer from './components/useReducer/UseReducer';
 // import Image from './components/lifecycle/Image';
 // import Text from './components/lifecycle/Text';
 import './App.css'
@@ -36,11 +39,6 @@ function App() {
         
         <button onClick={text}>Show Text</button>
         <button onClick={image}>Show Image</button> */}
-      {/* <Home></Home>
-      <MensC></MensC>
-      <WomensC></WomensC>
-      <Electronics></Electronics>
-      <Jewelery></Jewelery> */}
 
       {/* <Users></Users> */}
       <Navbar></Navbar>
@@ -50,10 +48,13 @@ function App() {
         <Route path = {"/jewelery"} element={<Jewelery/>}/>
         <Route path = {"/mens"} element={<MensC/>}/>
         <Route path = {"/womens"} element={<WomensC/>}/>
-        <Route path = {"/productDetails"} element={<ProductDetails/>}/>
+        <Route path = {"/productDetails/:id"} element={<ProductDetails/>}/>
         <Route path={'*'} element={<PageNotFound/>}/>
 
       </Routes>
+      {/* <UseRefComp></UseRefComp>
+      <DOMRef></DOMRef> */}
+      <UseReducer></UseReducer>
     </div>
   )
 }
